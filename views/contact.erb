@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
 
 <h1 class="center">Hey there!</h1>
@@ -14,12 +15,44 @@
 <p class="bold">Tell us what you're interested in and we'll be in touch</p>
 
 
-<h4 class="center">Send Us a Message</h4>
-            <form class="customform" method="post" action="contact">
-              <div class="center"> <input name="first" placeholder="First Name" title="Your name" type="text" /></div>
-                            
-              <div class="center"> <input name="email" placeholder="Your e-mail" title="Your e-mail" type="email" /></div>
+<h3 class="center">Contact Form</h3>
 
+<div class="container_cont">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" class="half_width" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input class="half_width"  type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <input type="text" name="subject" placeholder="Subject">
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <h3 class="center"> Where do you live? *</h3>
+    <p class="center"> * On occasion, Thriva will hold Meetups and other events.  If you'll tell us where you are, this will help with planning.   
+      No need to tell us your street address if you prefer privacy. </p>
+
+   <label for="address_1">Address 1</label>
+    <input type="text" name="address_1" placeholder="Address 1">
+
+    <label for="address_2">Address 2</label>
+    <input type="text" name="address_2" placeholder="Address 2">   
+
+   <label for="city">City</label>
+    <input type="text" name="city" placeholder="City">
+
+
+
+
+
+
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 
 <div id="map_block">
