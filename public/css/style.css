@@ -4,7 +4,13 @@ body {margin:0;}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #7E766C;
+}
+
+.set_right {
+  /* margin-left: 69.999vw; */
+  float: right;
+  overflow: hidden;
 }
 
 .topnav a {
@@ -54,17 +60,16 @@ body {margin:0;}
 
 }
 
-p{
-   margin-left: 7%;
+p {
+   margin-left: 10%;
    padding: 15px;
-   width: 69.99999%;
-   min-width: 80%;
-   
+   width: 69.999%;
+   min-width: 80%;  
    overflow: auto;
    text-align: center;
 }
 
-.center{
+.center {
    text-align: center;
 }
 .bold{
@@ -72,29 +77,39 @@ p{
 }
 
       /*GALLERY*/
- * {
-   box-sizing: border-box;
+* {
+   box-sizing: border-box;   
  }
  
- img {
+img {
    vertical-align: middle;
- }
+  }
+
+.size_1 {
+  width: 99.999%;
+  height: 52.999vw;
+  /* margin-left: 26.9999vw; */
+}  
  
  /* Position the image container (needed to position the left and right arrows) */
- .container {
-   width: 79.9999%;
-   height: 24%;
-   position: relative;
-   margin-left: 27%;
+.container {
+  width: 41.999%;
+  /* height: 2.999%; */
+  margin-left: 29.999vw;
+  position: relative;
+  padding-bottom: 1.111rem;
  }
  
+ .container2 {
+  position: relative;
+ }
  /* Hide the images by default */
- .mySlides {
+.mySlides {
    display: none;
  }
  
  /* Add a pointer when hovering over the thumbnail images */
- .cursor {
+.cursor {
    cursor: pointer;
  }
  
@@ -153,7 +168,7 @@ p{
  /* Six columns side by side */
  .column {
    float: left;
-   width: 16.66%;
+   width: 19.999%;
  }
  
  /* Add a transparency effect for thumnbail images */
