@@ -36,12 +36,24 @@ body {margin:0;}
 .topnav .icon {
   display: none;
 }
+      /*Hides logo in navbar  */
+@media screen and (max-width: 600px) {
+  .set_right {
+    float: none;
+    display: none;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
+    /* align-items: center; */
+    /* margin-left: 5.999vw; */
     display: block;
+  }
+  .topnav a {
+    display: none;
   }
 }
 
@@ -51,9 +63,10 @@ body {margin:0;}
     position: absolute;
     right: 0;
     top: 0;
+    display: none;
   }
   .topnav.responsive a {
-    float: none;
+    float: right;
     display: block;
     text-align: left;
   }
