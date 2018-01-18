@@ -84,6 +84,7 @@ p {
 
 .center {
    text-align: center;
+   align-content: center;
 }
 .bold{
    font-weight: bold;
@@ -208,7 +209,7 @@ img {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #A1AC83;
   color: white;
   padding: 12px 20px;
   border: ridge;
@@ -217,15 +218,22 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #A6634E;
 }
 
-.container_cont {
+.contact_box {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #D2D3D0;
   padding: 20px;
+  margin-bottom: 3%;
+  width: 68.9999%;
+  margin-left: 15vw;
+ 
 }
 
-.half_width {
-  width: 49.9999%;
+.flex1 {
+  width: 99.9999%;
+  display: flex;
+  flex-flow: row;
+
 }
